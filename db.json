@@ -1,0 +1,124 @@
+{
+    "parent_categories":[
+        {
+            "id": 1,
+            "name" : "Rice Meals",
+            "active": 1
+        },
+        {
+            "id": 2,
+            "name" : "Sides",
+            "active": 1
+        },
+        {
+            "id": 3,
+            "name" : "Desserts",
+            "active": 1
+        }
+    ],
+    "sub_categories": [
+        {
+            "id" : 1,
+            "name" : "French Fries",
+            "thumbnail" : "categories/french-fries.png",
+            "active": 1,
+            "parent_category": 2
+            
+        },
+        {
+            "id" : 2,
+            "name" : "Fried Chicken",
+            "thumbnail" : "categories/fried-chicken.png",
+            "active": 1,
+            "parent_category": 1
+        } ,
+        {
+            "id" : 3,
+            "name" : "Sundaes",
+            "thumbnail" : "categories/hot-fudge.png",
+            "active": 1,
+            "parent_category": 3
+        },
+        {
+            "id" : 4,
+            "name" : "Spaghetti",
+            "thumbnail" : "categories/spaghetti.png",
+            "active": 1,
+            "parent_category": 1
+        } 
+    ], 
+    "items" : [
+        {
+            "id" : 1,
+            "name" : "1pc Fried Chicken",
+            "price" : 100,
+            "category" : 2,
+            "active" : 1,
+            "thumbnail" : "items/1pc-fried-chicken.png"
+        },
+        {
+            "id" : 2,
+            "name" : "Spaghetti",
+            "price" : 80,
+            "category" : 4,
+            "active" : 1,
+            "thumbnail" : "items/spaghetti.png"
+        },
+        {
+            "id" : 3,
+            "name" : "Hot Fudge Sundae",
+            "price" : 50,
+            "category" : 3,
+            "active" : 1,
+            "thumbnail" : "items/hot-fudge.png"
+        },
+        {
+            "id" : 4,
+            "name" : "2pc Fried Chicken",
+            "price" : 200,
+            "category" : 2,
+            "active" : 1,
+            "thumbnail" : "items/1pc-fried-chicken.png"
+        },
+        {
+            "id" : 5,
+            "name" : "Large Spaghetti",
+            "price" : 150,
+            "category" : 4,
+            "active" : 1,
+            "thumbnail" : "items/spaghetti.png"
+        },
+        {
+            "id" : 9,
+            "name" : "Caramel Sundae",
+            "price" : 50,
+            "category" : 3,
+            "active" : 1,
+            "thumbnail" : "items/hot-fudge.png"
+        },
+        {
+            "id" : 7,
+            "name" : "2pc Fried Chicken",
+            "price" : 200,
+            "category" : 2,
+            "active" : 1,
+            "thumbnail" : "items/1pc-fried-chicken.png"
+        },
+        {
+            "id" : 8,
+            "name" : "Large Spaghetti",
+            "price" : 150,
+            "category" : 4,
+            "active" : 1,
+            "thumbnail" : "items/spaghetti.png"
+        },
+        {
+            "id" : 6,
+            "name" : "Caramel Sundae",
+            "price" : 50,
+            "category" : 3,
+            "active" : 1,
+            "thumbnail" : "items/hot-fudge.png"
+        }
+    ]
+}
